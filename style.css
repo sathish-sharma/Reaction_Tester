@@ -1,0 +1,29 @@
+body, html {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+  background: #eef;
+}
+
+.container {
+   text-align: center;
+}
+
+#time {
+  margin-top: 10px;
+  font-size: 1rem;
+  position: relative;
+}
+
+#box {
+  width: 150px;
+  height: 150px;
+  background: red;
+  position: relative;
+  cursor: pointer;
+}
+
+
